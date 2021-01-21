@@ -1,0 +1,10 @@
+A:\repositories\up_3\up_3\up_3\bin\Debug\up_3.exe.config
+A:\repositories\up_3\up_3\up_3\bin\Debug\up_3.exe
+A:\repositories\up_3\up_3\up_3\bin\Debug\up_3.pdb
+A:\repositories\up_3\up_3\up_3\bin\Debug\MyDll.dll
+A:\repositories\up_3\up_3\up_3\bin\Debug\MyDll.pdb
+A:\repositories\up_3\up_3\up_3\obj\Debug\up_3.csprojAssemblyReference.cache
+A:\repositories\up_3\up_3\up_3\obj\Debug\up_3.csproj.CoreCompileInputs.cache
+A:\repositories\up_3\up_3\up_3\obj\Debug\up_3.csproj.CopyComplete
+A:\repositories\up_3\up_3\up_3\obj\Debug\up_3.exe
+A:\repositories\up_3\up_3\up_3\obj\Debug\up_3.pdb
