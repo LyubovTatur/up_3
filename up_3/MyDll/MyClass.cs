@@ -7,7 +7,12 @@ using System.Threading.Tasks;
 namespace MyDll
 {
     public class MyClass
-    {
+    {/// <summary>
+    /// находит точки вне окружности
+    /// </summary>
+    /// <param name="points">массив координат точек</param>
+    /// <param name="r">радиус</param>
+    /// <returns></returns>
         public List<Point> Task1(Point[] points, double r)
         {
             List<Point> outPoints = new List<Point>();
@@ -25,7 +30,11 @@ namespace MyDll
 
             return outPoints;
         }
-
+        /// <summary>
+        /// выписывает два треугольника лежащих на разных частях координат
+        /// </summary>
+        /// <param name="points">точки</param>
+        /// <returns></returns>
         static public string Task2(Point[] points)
         {
             

@@ -11,7 +11,7 @@ namespace up_3
     {
         static void Main(string[] args)
         {
-            Point p1 = new Point(0,5);
+            Point p1 = new Point(0,2);
             Point p2 = new Point(1,2);
             Point p3 = new Point(1,3);
 

@@ -5,9 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace MyDll
-{
+{/// <summary>
+/// треугольник
+/// </summary>
     class Triangle
     {
+
         public Point point1;
         public Point point2;
         public Point point3;
