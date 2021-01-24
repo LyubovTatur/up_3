@@ -31,7 +31,7 @@ namespace MyDll
         }
         public override string ToString()
         {
-            return $"[{x},{y}]";
+            return $"[{x} , {y}]";
         }
     }
 }

@@ -4,3 +4,4 @@ A:\repositories\up_3\up_3\MyDll\obj\Debug\MyDll.csprojAssemblyReference.cache
 A:\repositories\up_3\up_3\MyDll\obj\Debug\MyDll.csproj.CoreCompileInputs.cache
 A:\repositories\up_3\up_3\MyDll\obj\Debug\MyDll.dll
 A:\repositories\up_3\up_3\MyDll\obj\Debug\MyDll.pdb
+A:\repositories\up_3\up_3\MyDll\bin\Debug\MyDll.xml

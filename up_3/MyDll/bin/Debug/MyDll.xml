@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyDll</name>
+    </assembly>
+    <members>
+        <member name="M:MyDll.MyClass.Task1(MyDll.Point[],System.Double)">
+            <summary>
+            находит точки вне окружности
+            </summary>
+            <param name="points">массив координат точек</param>
+            <param name="r">радиус</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyDll.MyClass.Task2(MyDll.Point[])">
+            <summary>
+            выписывает два треугольника лежащих на разных частях координат
+            </summary>
+            <param name="points">точки</param>
+            <returns></returns>
+        </member>
+        <member name="T:MyDll.Triangle">
+            <summary>
+            треугольник
+            </summary>
+        </member>
+    </members>
+</doc>

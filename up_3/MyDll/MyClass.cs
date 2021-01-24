@@ -13,7 +13,7 @@ namespace MyDll
     /// <param name="points">массив координат точек</param>
     /// <param name="r">радиус</param>
     /// <returns></returns>
-        public List<Point> Task1(Point[] points, double r)
+        public static  List<Point> Task1(Point[] points, double r)
         {
             List<Point> outPoints = new List<Point>();
 
@@ -92,6 +92,28 @@ namespace MyDll
             }
 
             return "не найдено";
+        }
+        public static void ShowPoints(List<Point> points )
+        {
+            for (int i = 0; i < points.Count; i++)
+            {
+                Console.Write(points[i].ToString());
+                Console.Write(" ");
+            }
+            Console.WriteLine();
+        }
+
+        public static void Task3(Point topLeft, Point botRight)
+        {
+            Random random = new Random();
+            double[] straights = new double[random.Next(1,10)];
+            Console.WriteLine($"число прямых - {straights.Length}\nПрямые и точки:\n");
+            for (int i = 0; i < straights.Length; i++)
+            {
+                straights[i] = random.Next(int.Parse((topLeft.x - topLeft.x % 1.0).ToString()), int.Parse((botRight.x - botRight.x % 1.0).ToString()))+Math.Round(random.NextDouble(), 2);
+                Console.WriteLine($"{i+1}. Значение икса прямой - {straights[i]}, пересечение её с верхним основанием в точке {new Point(straights[i],topLeft.y).ToString()}, с нижним в точке {new Point(straights[i], botRight.y).ToString()}.");
+            }
+            
         }
     }
 }
